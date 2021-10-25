@@ -1,6 +1,8 @@
 # Coding Test: Mini CRM
 
-This is a mini CRM coded by Michael Hospedales
+This is a mini CRM coded by Michael Hospedales. It performs general CRUD functions and even provides a search bar that works with the first name, last name and email address.
+
+All fields are required when creating a user.
 
 ## Installation
 
@@ -17,6 +19,10 @@ Then use:
 ```bash
 npm run dev
 ```
+
+The navigation is pretty standard with the addition of the search bar on every page.
+
+Once a user has been created
 
 This will load up the Next.js server which you can connect to at http://localhost:3000/
 
