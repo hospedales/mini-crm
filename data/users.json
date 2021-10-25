@@ -1,0 +1,41 @@
+[
+    {
+        "firstName": "Mick",
+        "lastName": "Hospy",
+        "email": "mickhospy@test.com",
+        "street": "12345 SW 8th Street",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33130",
+        "id": 1,
+        "profile": "https://thiscatdoesnotexist.com/",
+        "dateCreated": "2021-10-25T17:39:34.010Z",
+        "dateUpdated": "2021-10-25T17:39:34.010Z"
+    },
+    {
+        "firstName": "Liam",
+        "lastName": "Thor",
+        "email": "thorthunder@hotmail.com",
+        "street": "30 Asgaard Lane",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "11467",
+        "id": 2,
+        "profile": "https://thishorsedoesnotexist.com/",
+        "dateCreated": "2021-10-25T17:55:30.439Z",
+        "dateUpdated": "2021-10-25T17:55:30.439Z"
+    },
+    {
+        "firstName": "Rick",
+        "lastName": "Astley",
+        "email": "nevergonna@icloud.com",
+        "street": "867 Goodbye Rd",
+        "city": "Newton",
+        "state": "CT",
+        "zip": "21134",
+        "id": 3,
+        "profile": "https://thisartworkdoesnotexist.com/",
+        "dateCreated": "2021-10-25T17:58:08.898Z",
+        "dateUpdated": "2021-10-25T17:58:08.898Z"
+    }
+]
