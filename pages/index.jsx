@@ -47,15 +47,9 @@ export default function Home() {
                         <p className="ml-2">A decent user interface</p>
                       </li>
                     </ul>
-                    <p>Thank you, Niket, for setting me up to this challenge! I stumbled upon some tools, that I will take with me &mdash; and utilize in the future.</p>
                   </div>
-                  <div className="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-                    <p>Learn more about this mini CRM</p>
-                    <p>
-                      <Link href="/docs">
-                        <a className="text-yellow-400 hover:text-cyan-700"> Read the docs &rarr; </a>
-                      </Link>
-                    </p>
+                  <div className="pt-6 text-base leading-6 sm:text-lg sm:leading-7">
+                  <p>Thank you, Niket, for setting me up to this challenge! I stumbled upon some tools, that I will take with me &mdash; and utilize in the future.</p>
                   </div>
                 </div>
               </div>

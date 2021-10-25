@@ -38,9 +38,9 @@ export default function Search() {
     return (
         <form className='relative'>
             <div className="focus-within:text-gray-800" ref={searchRef}>
-                <input className="p-2 rounded-lg border border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" onChange={onChange} onFocus={onFocus} placeholder='Search Users' type='text' value={query} />
+                <input className="w-8/12 py-2 px-2 rounded-lg border border-transparent focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent" onChange={onChange} onFocus={onFocus} placeholder='Search Users' type='text' value={query} />
                 {active && results.length > 0 && (
-                    <ul className='font-semibold absolute z-20 p-1 bg-white mt-1 border-2 rounded-lg'>
+                    <ul className='font-semibold absolute z-20 px-2 bg-white mt-1 border-2 rounded-lg w-8/12'>
                         {results.map(({ id, firstName, lastName, email }) => (
                             <li className="hover:bg-yellow-200" key={id}>
                                 <Link href={`/users/edit/${encodeURI(id)}`}>

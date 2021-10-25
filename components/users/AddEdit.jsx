@@ -61,10 +61,10 @@ function AddEdit(props) {
     return (
         <Layout>
             <Head>
-                <title>Edit: {user.firstName}</title>
+                <title>User Model</title>
             </Head>
             <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={handleSubmit(onSubmit)}>
-            <h1>{isAddMode ? 'Add User' : 'Edit User'}</h1>
+            <h1 className="text-xl font-bold bg-yellow-400 rounded-tl-xl rounded-tr-xl py-2 mb-4 text-center">{isAddMode ? 'Add User' : 'Edit User'}</h1>
             <div className="flex flex-wrap -mx-3 mb-2">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                     <label className="block text-gray-700 text-sm font-bold mb-2">First Name</label>
